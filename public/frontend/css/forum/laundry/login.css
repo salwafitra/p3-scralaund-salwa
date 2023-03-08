@@ -1,0 +1,101 @@
+body {
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+}
+
+nav {
+    height: 55px;
+    background-color: #850000;
+}
+
+ul {
+    left: 1000px;
+    margin: 0 0 0 700px;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    width: 100px;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #efefef;
+    text-align: center;
+}
+
+li a:hover {
+    background: #efefef;
+    color: #850000;
+}
+
+nav ul button {
+    width: 84px;
+    height: 36px;
+    font-family: 'Figtree', sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    left: 1201px;
+    top: 74px;
+    background: #efefef;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+}
+
+nav ul button a {
+    text-decoration: none;
+    color: #850000;
+}
+
+img {
+    margin-left: 400px;
+    margin-top: 15px;
+    width: 550px;
+    /* height: 546px; */
+}
+
+.content h1 {
+    /* position: absolute; */
+    text-align: center;
+    margin: 0 auto;
+    width: 446px;
+    height: 50px;
+    margin-top: 10rem;
+    color: #850000;
+}
+
+.content form input {
+    /* position: absolute; */
+    width: 720px;
+    height: 30px;
+    /* left: calc(50% - 750px/2 + 10.5px);
+    top: calc(50% - 80px/2 + 105px); */
+    background-color: #850000;
+    color: #FFFFFF;
+    /* background: #FFFFFF; */
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+}
+
+.form-input {
+    position: relative;
+    margin: 0 auto;
+    width: 720px;
+}
+
+.form-input i {
+    position: absolute;
+    color: #FFFFFF;
+    /* left: 1rem; */
+    left: 2%;
+    top: 25%;
+}
